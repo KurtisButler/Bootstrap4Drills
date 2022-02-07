@@ -1,0 +1,10 @@
+/* .container {
+    background-color: blue;
+    height: 500px;
+}
+ */
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
