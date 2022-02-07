@@ -1,32 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap 4 Drills</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="bootstrapstyles.css">
 </head>
+
 <body>
     <div class="container">
         <div class="row justify-content-center">
             <h1>“First Bootstrap Project”</h1>
         </div>
-        <div class="row">
-            <div class="col justify-content-start">
+        <div class="row justify-content-between">
+            <div class="">
                 This is on the far left.
             </div>
-            <div class="col justify-content-center">
+            <div class="">
                 This is around the center.
             </div>
-            <div class="col justify-content-end"> 
+            <div class="">
                 This is to the far right I guess.
             </div>
 
         </div>
-        
+
+        <div class="row">
+            <form class="p-3 col-12 border border-primary">
+                <div class="form-group">
+                    <label for="emailInput">Email Address</label>
+                    <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp"
+                        placeholder="Enter email">
+                </div>
+
+                <div class="form-group">
+                    <label for="passwordInput">Password</label>
+                    <input type="password" class="form-control" id="passwordInput" placeholder="Password">
+                </div>
+
+                <div class="form-check">
+                    <div>
+                        <input class="form-check-input" type="checkbox" value="" id="Checkbox1">
+                        <label class="form-check-label" for="Checkbox1">Cats</label>
+                    </div>
+                    <div>
+                        <input class="form-check-input" type="checkbox" value="" id="Checkbox2">
+                        <label class="form-check-label" for="Checkbox2">Dogs</label>
+                    </div>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                        value="option1" checked>
+                    <label class="form-check-label" for="exampleRadios1"></label>Cheese Pizza</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
+                        value="option1" checked>
+                    <label class="form-check-label" for="exampleRadios2"></label>Hawaiian Pizza</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3"
+                        value="option1" checked>
+                    <label class="form-check-label" for="exampleRadios3"></label>Supreme Pizza</label>
+                </div>
+               
+        </div>
+        <button class="btn btn-primary" type="submit">Submit form</button>
+
+        </form>
     </div>
-    
+    <div class="row">
+        <div class="col-6">
+            <div class="card" style="width: 18rem:">
+                <div class="card-body">
+                    <h3 class="card-title">Smitty Werbenjagermanjensen</h3>
+                    <p class="card-text">He was Number One.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">Ryan Gosling</h3>
+                    <p class="card-text">He tells me to get out of his yard all the time or he will call the
+                        police.
+                        Such a joker.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">Elmo</h3>
+                    <p class="card-text">He's been sober for six years. Super proud of him!</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">Betty White</h3>
+                    <p class="card-text">RIP homie.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">MewTwo</h3>
+                    <p class="card-text">He sucks at poker.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">The Monopoly Man</h3>
+                    <p class="card-text">His favorite topic is capitalism.</p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    </div>
+
 </body>
+
 </html>
